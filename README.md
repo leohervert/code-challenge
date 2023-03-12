@@ -7,7 +7,6 @@ Also, I should be able to filter the favorited shows by clicking the View Favori
 
 ### Acceptance Criteria
 * Screen01.png should be the first when the App opens
-* 
 * This screen should have the same specs as the screenshots provided.	
 * The shows list should be imported from a JSON file (see Technical Details).
 * Clicking on the favorite icon should instantly favorite the show.
