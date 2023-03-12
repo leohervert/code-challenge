@@ -63,4 +63,3 @@ As a user, I would like to have my favorites stored for the next time I visit th
 	*	What in your code could be improved if you had more time.
 	*	Good styling for proper design and UX is highly valued.
 	*	Mention anything that was asked but not delivered and why, and any additional comments.
-*	Any questions, please send an email to carlos.kaim@proagrica.com
