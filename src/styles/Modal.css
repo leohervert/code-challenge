@@ -1,19 +1,33 @@
-.Modal-Container { 
+.ModalContainer {
   position:fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #ffffff;
-  padding: 50px;
+  border-radius: 20px;
   z-index: 1000;
 }
 
-.Modal-Overlay {
+.ModalOverlay {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, .7);
   z-index: 1000;
 }
+
+.ModalCloseButton {
+  float:right;
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  z-index: 1000;
+}
+
+.ModalCloseIcon {
+  width: inherit;
+  height: inherit;
+}
+

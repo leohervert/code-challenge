@@ -1,0 +1,127 @@
+.Home-Container {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px #7a7a7a solid;
+}
+
+.Tv-title {
+  display: flex;
+  justify-content: center;
+}
+
+.Films-Container {
+  display: grid;
+  justify-content: center;
+}
+
+.Film-Container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+  align-items: center;
+}
+
+.Film-Img {
+  width: 50px;
+  height: auto;
+  object-fit: cover;
+  border: color;
+}
+
+.Film-Title-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Film-Title {
+  margin-left: 5px;
+}
+.Film-Fav {
+  color: red;
+  width: 50px;
+  height: 50px;
+}
+.Film-Fav svg {
+  width: 100%;
+  height: auto;
+}
+
+.FilmModalContainer {
+  padding: 50px;
+  width: 500px;
+}
+
+.FilmModalTitle {
+  margin: 0 6px;
+}
+
+.FilmModalTitle {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.FilmModalButtonContainer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.FilmModalButton {
+  display: flex;
+  color: red;
+  border: red 1px solid;
+  border-radius: 5px;
+}
+
+.FilmModalTitleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ModalFilmDescription {
+  display: flex;
+  justify-content: center;
+}
+
+.FilmModalImg {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.DeleteFavoriteModal {
+  padding: 10px 15px;
+  width: 200px;
+  height: 100px;
+}
+.DeleteFavoriteModalButtons {
+  display: flex;
+  justify-content: end;
+}
+
+.FilterContainer {
+  display: grid;
+  flex-direction: column;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.Button {
+  border: 1px solid transparent;
+  font-size: 14px;
+  line-height: 1.4;
+  border-radius: 4px;
+}
+
+.DefaultButton {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.FilterButton {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
